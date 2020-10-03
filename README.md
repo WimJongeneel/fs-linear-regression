@@ -1,3 +1,3 @@
 # Liniar regression in F# with gradient descent
 
-Some simple machinelearning stuff in F#
+Some basic machine learning stuff in F#
