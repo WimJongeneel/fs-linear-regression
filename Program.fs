@@ -9,7 +9,7 @@ let liniar t0 t1 = fun x -> t0 + t1 * x
 let margin = 0.000000000001
 
 let liniar_regression (m: (double * double) list) (i: (double * double)) (a: double) = 
-    let mutable  t0, t1 = i
+    let mutable t0, t1 = i
 
     let mutable convergence = false
     while not convergence do
