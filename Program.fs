@@ -11,7 +11,7 @@ let margin = 0.000000000001
 let liniar_regression (m: (double * double) list) (i: (double * double)) (a: double) = 
     let mutable  t0, t1 = i
 
-    let mutable  convergence = false
+    let mutable convergence = false
     while not convergence do
         let h = liniar t0 t1
 
